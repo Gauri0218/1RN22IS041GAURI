@@ -1,0 +1,48 @@
+{
+  "name": "stock-aggregator-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "recharts": "^2.0.9"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "typescript": "^4.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project is a React-based web application for aggregating stock prices and providing real-time analytical insights. It features a Stock Page for detailed stock information and a Correlation Heatmap for visualizing stock correlations.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

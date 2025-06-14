@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "es2017"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@services/*": ["services/*"],
+      "@utils/*": ["utils/*"],
+      "@types/*": ["types/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}
